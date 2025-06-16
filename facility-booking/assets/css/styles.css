@@ -1,0 +1,67 @@
+
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px (because 62.5% of 16px = 10px) */
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.nav-logo {
+    width: 9rem;
+}
+
+.nav-links {
+    margin: 10px;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.facility-overview {
+    display: inline-flex;
+}
+
+.facility-overview img {
+    margin: 10px;
+    width: 55%;
+    border-radius: 10px
+}
+
+.facility-overview a.button {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: auto;
+}
+
+
+/* MEDIA QUERY */
